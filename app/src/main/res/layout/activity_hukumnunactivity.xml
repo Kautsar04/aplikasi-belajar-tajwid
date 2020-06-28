@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background6"
+    tools:context=".hukumnunactivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:scrollbars="none"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/idghambilaghunnah"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:background="@drawable/idghambilagunnah"
+                android:clickable="true" />
+            <ImageButton
+                android:id="@+id/idghambigunnah"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:background="@drawable/idghambigunnah"
+                android:clickable="true" />
+            <ImageButton
+                android:id="@+id/ikhfahaqiqi"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:background="@drawable/ikhfahaqiqi"
+                android:clickable="true" />
+            <ImageButton
+                android:id="@+id/idzharhalqi"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:background="@drawable/izharhalqi"
+                android:clickable="true" />
+            <ImageButton
+                android:id="@+id/iqlab"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:background="@drawable/iqlab"
+                android:clickable="true" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonhome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home"/>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonexit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/exit"/>
+</RelativeLayout>

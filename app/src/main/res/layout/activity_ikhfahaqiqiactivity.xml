@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/pengertianikhfahaqiqi"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:text="Ikhfa artinya menyamarkan, hukum bacaan ini berlaku apabila huruf nun mati atau tanwin bertemu dgn huruf-huruf ikhfa yakni  ta’(ت), tha’ (ث), jim (ج), dal (د), dzal (ذ), zai (ز), sin (س), syin (ش), sod (ص), dhod (ض), , fa’ (ف), qof (ق), dan huruf  kaf (ك). Jika bertemu dengan huruf-huruf tersebut  maka nun mati atau tanwin tersebut  harus dibaca samar atau antara bacaan Izhar dan bacaan Idgham.  "
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/textikhfahaqiqi1"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:text="berikut hurufnya"
+                android:textSize="20dp"/>
+            <ImageButton
+                android:id="@+id/hurufikhafahaqiqi"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/hurufikhfahaqiqi" />
+            <TextView
+                android:id="@+id/textikhfahaqiqi2"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:text="berikut contohnya"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/contohikhfahaqiqi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QS An-Nas ayat 4 (nun sukun bertemu syin) مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ QS Al-Falaq ayat 2 (nun sukun bertemu syin) مِن شَرِّ مَا خَلَقَ"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonhome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home"/>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonexit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/exit"/>
+</RelativeLayout>

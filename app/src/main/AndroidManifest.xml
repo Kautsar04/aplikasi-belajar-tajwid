@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.muhammadkautsar.belajartajwid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".halamanutamaactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ikhfasyafawiactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ikhfahaqiqiactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".izharsyafawiactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".izharhalqiactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".idghammutaqaribainactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".idghammutamathilainactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".idghammutahanisainactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".hukummadactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".idghambigunnahactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".idghammimiactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".idghambilagunnahactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".iqlabctivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".hukumidghamactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".hukummimactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".hukumnunactivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".quisactivity"
+            android:screenOrientation="landscape"
+        />
+        <activity
+            android:name=".belajaractivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".hailquis"
+            android:screenOrientation="landscape"/>
+    </application>
+
+</manifest>

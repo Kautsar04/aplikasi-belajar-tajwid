@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/pengertianiqlab"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:text="Iqlab adalah suatu hukum bacaan Alqur’an yang terjadi apabila nun mati atau tanwin bertemu dengan satu huruf saja yaitu huruf  ba’ (ب). Di dalam bacaan ini, bacaan nun mati atau tanwin tidak lagi dibaca sebagai nun atau tanwin berubah menjadi bunyi huruf mim (م).  "
+                android:textSize="24dp"/>
+            <TextView
+                android:id="@+id/textiqlab1"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:text="berikut hurufnya"
+                android:textSize="20dp"/>
+            <ImageButton
+                android:id="@+id/hurufiqlab"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/hurufiqlab" />
+            <TextView
+                android:id="@+id/textiqlab2"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:text="berikut contohnya"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/contohiqlab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QS Al-Humazah ayat 4 (nun sukun bertemu ba) كَلَّا ۖ لَيُنبَذَنَّ فِي الْحُطَمَةِ QS Al-Bayyinah ayat 4 (nun sukun bertemu ba) وَمَا تَفَرَّقَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِن بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَةُ "
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonhome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home"/>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonexit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/exit"/>
+</RelativeLayout>

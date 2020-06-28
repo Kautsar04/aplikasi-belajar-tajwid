@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/pengertianidghambiagunnah"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:text="Idgham Bilaghunnah artinya melebur  tanpa dengung atau maksudnya memasukkan huruf nun mati atau tanwin kedalam huruf sesudahnya tanpa disertai suara yang mendengung. Hukum bacaan tersebut berlaku jika nun atau tanwin bertemu huruf berikut lam dan ra’"
+                android:textSize="24dp"/>
+            <TextView
+                android:id="@+id/textidghambilagunnah1"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:text="berikut hurufnya"
+                android:textSize="20dp"/>
+            <ImageButton
+                android:id="@+id/hurufidghambilagunnah"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/hurufidghambilaghunnah" />
+            <TextView
+                android:id="@+id/textidghambilagunnah2"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:text="berikut contohnya"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/contohidghambilagunnah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QS Al-Ikhlas ayat 4 (nun sukun bertemu lam) وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ QS Al-Ma'un ayat 4 (tanwin bertemu lam)فَوَيْلٌ لِّلْمُصَلِّينَ "
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonhome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home"/>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonexit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/exit"/>
+</RelativeLayout>

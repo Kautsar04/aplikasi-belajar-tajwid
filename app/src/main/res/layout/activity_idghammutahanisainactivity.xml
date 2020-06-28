@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/pengertianidghammutajanisain"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:text="Idgham mutajanisain adalah hukum bacaan ketika dua huruf dengan makhraj yang sama tetapi tidak sama sifatnya bertemu seperti  huruf ta’ bertemu tha, lam bertemu  ra’ serta dzal dan huruf zha. "
+                android:textSize="24dp"/>
+            <TextView
+                android:id="@+id/textidghammutajanisain1"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:text="berikut hurufnya"
+                android:textSize="20dp"/>
+            <ImageButton
+                android:id="@+id/hurufidghammutajanisain"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/hurufidghammutajanisain" />
+            <TextView
+                android:id="@+id/textidghammutajanisain2"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:text="berikut contohnya"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/contohidghamutajanisain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QS Al-Kafirun ayat 4 (dal bertemu ta) وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonhome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home"/>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonexit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/exit"/>
+</RelativeLayout>

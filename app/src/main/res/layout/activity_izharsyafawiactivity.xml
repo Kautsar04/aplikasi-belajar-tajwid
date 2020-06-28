@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/pengertianizharsyafawi"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:text="Hukum bacaan ini berlaku apabila huruf mim mati (مْ) bertemu salah satu huruf hijaiyyah selain huruf mim (مْ) dan huruf ba (ب). Cara membaca idzhar ini harus dilafalkan dengan  jelas pada bibir sambil menutup mulut. "
+                android:textSize="24dp"/>
+            <TextView
+                android:id="@+id/textizharsyafawi1"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:text="berikut hurufnya"
+                android:textSize="20dp"/>
+            <ImageButton
+                android:id="@+id/hurufizharsyafawi"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/hurufidzharsyafawi" />
+            <TextView
+                android:id="@+id/textizharsyafawi2"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:text="berikut contohnya"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/contohizharsyafawi"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="QS Al-Ikhlas ayat 3 (mim sukun bertemu ya, mim sukun bertemu ya) لَمْ يَلِدْ وَلَمْ يُولَدْ QS Al-Ikhlas ayat 4 (mim sukun bertemu ya) وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonhome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home"/>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonexit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/exit"/>
+</RelativeLayout>
